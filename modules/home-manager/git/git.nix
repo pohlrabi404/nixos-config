@@ -8,7 +8,6 @@
     userEmail = "pohlrabi404@gmail.com";
     extraConfig = {
       init.defaultBranch = "main";
-      safe.directory = "/etc/nixos";
       safe.directory = "/home/pohlrabi/nixos";
     };
   };

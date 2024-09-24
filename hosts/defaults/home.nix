@@ -55,6 +55,6 @@
  
   imports = [
     ../../modules/home-manager/bash/bash.nix
-    ../../modules/home-mamager/git/git.nix
+    ../../modules/home-manager/git/git.nix
   ];
 }
