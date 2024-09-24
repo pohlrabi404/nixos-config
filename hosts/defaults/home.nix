@@ -54,7 +54,6 @@
   programs.home-manager.enable = true;
  
   imports = [
-    ../../modules/home-manager/bash/bash.nix
-    ../../modules/home-manager/git/git.nix
+    ../../modules/home-manager
   ];
 }
