@@ -66,6 +66,7 @@
     vim    
     tree
     git
+    brave
  ];
 
  system.stateVersion = "24.05";
