@@ -35,8 +35,8 @@
     alsa.support32Bit = true;
     pulse.enable = true;
     jack.enable = true;
-  };
+  }
 
   services.dbus.enable = true;
-  services.polkit.enable = true;
+  security.polkit.enable = true;
 }
