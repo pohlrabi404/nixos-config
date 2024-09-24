@@ -1,7 +1,10 @@
 { config, pkgs, ... }:
 {
 
-  programs.hyprland.enable = true;
+  programs.hyprland = {
+    enable = true;
+    xwayland.enable = true;
+  };
 
   environment.systemPackages = with pkgs; [
     (waybar.overrideAttrs (oldAttrs: {
@@ -34,4 +37,6 @@
     jack.enable = true;
   };
 
+  services.dbus.enable = true;
+  services.polkit.enable = true;
 }
